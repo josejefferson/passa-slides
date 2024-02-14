@@ -1,0 +1,22 @@
+{
+	"name": "Passa Slides",
+	"short_name": "Passa Slides",
+	"description": "",
+	"icons": [{
+			"src": "/static/img/icon.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		},
+		{
+			"src": "/static/img/icon_maskable.png",
+			"type": "image/png",
+			"sizes": "256x256",
+			"purpose": "maskable"
+		}
+	],
+	"start_url": "/",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#000000",
+	"theme_color": "#000000"
+}
