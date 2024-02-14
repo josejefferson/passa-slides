@@ -2,8 +2,8 @@
 
 
 a = Analysis(
-    ['src\\main.py'],
-    pathex=['venv\\Lib\\site-packages'],
+    ['src/main.py'],
+    pathex=['venv/Lib/site-packages'],
     binaries=[],
     datas=[('static', 'static')],
     hiddenimports=[],
@@ -21,7 +21,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Passa Slides',
+    name='Passa-Slides',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -34,5 +34,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['static\\img\\icon.ico'],
+    icon=['static/img/icon.ico'],
 )
